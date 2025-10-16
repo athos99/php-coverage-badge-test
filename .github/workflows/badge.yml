@@ -18,8 +18,8 @@ jobs:
         with:
           report: 'coverage/clover.xml'
           report_type: 'clover'
-          coverage_line_badge_path: 'output/clover_coverage_line.svg'
-          coverage_branch_badge_path: 'output/clover_coverage_branch.svg'
+          coverage_line_badge_path: 'output/coverage_line.svg'
+          coverage_branch_badge_path: 'output/coverage_branch.svg'
 
       - name: archive
         run: git config --local user.name actions-user
